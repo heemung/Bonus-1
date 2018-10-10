@@ -24,7 +24,7 @@ namespace Bonus_1
 
                    testForNumber = int.TryParse(Console.ReadLine(), out numberGrade);
 
-                } while (numberGrade < 0 && numberGrade > 100 && testForNumber);
+                } while (numberGrade < 101 && numberGrade > -1 && !testForNumber);
 
                 if (numberGrade < 60)
                     letterGrade = "F";
